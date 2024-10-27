@@ -1,0 +1,598 @@
+:root {
+  --spacing: 100vw;
+  --new: calc(var(--spacing) / 1920);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  outline: 1px solid red;
+  /* Helps you visualize the boundaries of each element */
+}
+
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent horizontal overflow */
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background: #F8F0E3;
+  /* Ensure full width */
+}
+
+header {
+  margin: 0 0;
+  justify-content: center;
+}
+
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+div {
+}
+.link {
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in;
+
+  background-color: transparent;
+}
+li a:hover {
+  background-color: #877b68;
+  color: #f8f0e3;
+}
+.logo {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-main {
+  height: 80%;
+  width: 100%;
+  content: url("img/Pearl Oasis logo.png");
+  
+}
+
+.navbar ul {
+  display: flex;
+
+  list-style: none;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  margin: 0 0;
+  padding: 0 0;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  min-width: 100%;
+}
+
+.sidepanel {
+  position: absolute;
+  visibility: hidden;
+}
+
+body .hero-section {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body .landing-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body .tagline {
+}
+
+body .landing-text {
+  position: absolute;
+  display: block;
+  justify-content: start;
+
+  width: 40%;
+  height: 30%;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #d9d9d9;
+}
+
+body .category-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.carousel {
+  visibility: visible;
+  margin: 0 20%;
+}
+
+
+
+.carousel-item {
+  overflow: hidden;
+  border-radius: 16px;
+ 
+}
+
+
+
+.carousel-inner {
+}
+body .text {
+  margin-top: 64px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+body .categories {
+  display: relative;
+  margin: 0 auto;
+  height: inherit;
+  width: 61%;
+}
+
+.links {
+  height: 80%;
+  width: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: flex-end;
+}
+
+.menu {
+  visibility: hidden;
+  position: absolute;
+}
+
+.link-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  justify-content: center;
+  transform: scale(0.8);
+}
+
+body .box {
+  background-color: black;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+  position: relative;
+  
+  height: 30vh;
+  flex: 1 0 344px;
+  opacity: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.category-img {
+  height: 100%;
+  width: 100%;
+
+  opacity: 0.4;
+  object-fit: cover;
+}
+
+.box h3 {
+  position: absolute;
+
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.featured {
+  display: block;
+  position: relative;
+  height: inherit;
+}
+
+.featured-1 {
+  border-radius: 16px 0 0 0;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 560px);
+
+  width: 736px;
+  height: 520px;
+  object-fit: cover;
+}
+
+.featured-2 {
+  position: absolute;
+  border-radius: 0 16px 0 0;
+  top: 0px;
+  left: calc(50% + 208px);
+  background-color: #d9d9d9;
+  width: 352px;
+  height: 312px;
+  object-fit: cover;
+}
+
+.featured-3 {
+  position: absolute;
+
+  top: 344px;
+  left: calc(50% + 208px);
+  background-color: #d9d9d9;
+  width: 352px;
+  height: 624px;
+  object-fit: cover;
+}
+
+.featured-4 {
+  position: absolute;
+  top: 552px;
+  left: calc(50% - 176px);
+  background-color: #040303;
+  width: 352px;
+  height: 416px;
+  object-fit: cover;
+}
+
+.featured-5 {
+  position: absolute;
+  border-radius: 0 0 0 16px;
+  top: 552px;
+  left: calc(50% - 560px);
+  background-color: #d9d9d9;
+  width: 352px;
+  height: 624px;
+  object-fit: cover;
+}
+
+.featured-6 {
+  position: absolute;
+  border-radius: 0 0 16px 0;
+  top: 1000px;
+  left: calc(50% - 176px);
+  background-color: #d9d9d9;
+  width: 736px;
+  height: 176px;
+  object-fit: cover;
+}
+
+.gallery {
+  width: 60vw;
+  margin: 0 auto;
+  position: relative;
+  height: 115vh;
+  transform: scale(1);
+  color: #000;
+  font-family: Outfit;
+}
+
+.contact {
+  top: 0px;
+  margin: 0 auto;
+  width: 61%;
+  height: inherit;
+}
+
+.address {
+  display: flex;
+  gap: 64px;
+}
+
+.address-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mapouter {
+  display: table;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
+  width: 30vw;
+  background: #fff;
+}
+
+.gmap_canvas iframe {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 30vw;
+  height: 50vh;
+}
+
+.gmap_canvas a {
+  color: #fff !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 0 !important;
+}
+
+footer {
+  background: red;
+  width: 100vw;
+  height: 20vh;
+  margin-top: 10%;
+}
+
+@media (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  body .landing-text {
+    position: absolute;
+    display: block;
+    text-align: center;
+
+    width: 100%;
+    height: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .container {
+    top: 0;
+    margin: 0 ;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .navbar {
+    visibility: hidden;
+  }
+
+  body .hero-section {
+    width: 100%;
+    height: 480px;
+    position: relative;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  body .landing-img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  body .categories {
+    margin: 0 auto;
+    height: inherit;
+    width: 100%;
+  }
+
+  body .box {
+    border-radius: 8px;
+
+    height: 10vh;
+    flex: 1 0 191px;
+  }
+
+  .box h3 {
+    position: absolute;
+
+    margin-top: 5vh;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  .category-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  body .category-grid {
+    margin: 0 5%;
+    gap: 16px;
+  }
+
+  body .featured {
+    position: relative;
+    top: 0px;
+    height: auto;
+  }
+
+  .gallery {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  .logo {
+    height: 60%;
+    margin: 0;
+  }
+
+  .navbar {
+    position: absolute;
+  }
+
+  .container {
+    height: 100px;
+  }
+
+  .links {
+    height: 60%;
+    width: 120px;
+    margin-right: 0;
+  }
+
+  .menu {
+    position: relative;
+    visibility: visible;
+    margin: 0 0;
+    padding: 0 0;
+    height: 70%;
+    width: 40%;
+    border: 0px;
+    background-color: transparent;
+  }
+
+  .hamburger {
+    padding: 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .link-img {
+    position: absolute;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+  .sidepanel {
+    visibility: visible;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 5;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+  }
+
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 0;
+    margin: 0 0 0 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* Remove extra margin around an element */
+  .element {
+    margin: 0;
+  }
+
+  .element {
+    border: 1px solid green;
+  }
+
+  /* Reduce padding around an element */
+  .element {
+    padding: 0px;
+    /* Adjust the value as needed */
+  }
+
+  .menu:hover {
+    background-color: #444;
+  }
+
+  .address {
+    display: block;
+    gap: 64px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    position: relative;
+    height: 30vh;
+    width: 61vw;
+    background: #fff;
+  }
+
+  .gmap_canvas iframe {
+    position: relative !important;
+    z-index: 2 !important;
+    width: 61vw;
+    height: 30vh;
+  }
+  .carousel {
+    margin: 0 5%;
+  }
+  .logo-main {
+    content: url("img/Pearl-Oasis-logo.png");
+  }
+}
