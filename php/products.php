@@ -32,12 +32,11 @@ require "includes/session.security.php" ?>
             <!-- <a href="index.php#category">Categories</a> -->
             <a href="about.php">Contact Us</a>
         </div>
-
+            
 
         <div class="container">
             <div class="logo">
-                <img src="img/Pearl Oasis logo.png" class="logo-main" alt="">
-                <img class="logo-main2" alt="">
+                <img class="logo-main" src="img/logo-single.png" alt="">
             </div>
             <nav class="navbar">
                 <ul>
@@ -52,6 +51,8 @@ require "includes/session.security.php" ?>
                 <a href="https://www.facebook.com/theoasisjewellers/"><img class="link-img" src="img/Vector-1.svg"
                         alt=""></a>
                 <a href="https://www.facebook.com/theoasisjewellers/"><img class="link-img" src="img/Vector.svg"
+                        alt=""></a>
+                <a href="https://www.instagram.com/thepearloasisjewellers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img class="link-img" src="img/ig-logo.svg"
                         alt=""></a>
                 <button class="menu" onclick="sidepane()"><img class="hamburger" src="img/Hamburger-menu.png" alt="">
                 </button>

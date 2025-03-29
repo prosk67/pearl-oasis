@@ -115,7 +115,7 @@ header {
             .logo-main {
                 height: 80%;
                 width: 100%;
-                content: url("../img/Pearl\ Oasis\ logo.png");
+                content: url("../img/logo-single.png");
 
             }
         }
@@ -447,18 +447,17 @@ footer {
                 height: 60%;
                 margin: 0;
 
+                content: url("../img/logo-single.png");
+
                 .logo-main {
                     outline: 1px solid red;
                     position: absolute;
                     display: none;
+                    
 
+                    content: url("../img/logo-single.png");
                 }
 
-                .logo-main2 {
-                    height: 100%;
-
-                    content: url("../img/Pearl Oasis logo.png");
-                }
 
 
 

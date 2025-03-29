@@ -35,7 +35,6 @@
         <div class="container">
             <div class="logo">
                 <img class="logo-main" alt="">
-                <!-- <img class="logo-main2" alt=""> -->
             </div>
             <nav class="navbar">
                 <ul>
@@ -50,6 +49,8 @@
                 <a href="https://www.facebook.com/theoasisjewellers/"><img class="link-img" src="img/Vector-1.svg"
                         alt=""></a>
                 <a href="https://wa.me/+8801892411397?text=Hi%20there!"><img class="link-img" src="img/Vector.svg"
+                        alt=""></a>
+                <a href="https://www.instagram.com/thepearloasisjewellers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img class="link-img" src="img/ig-logo.svg"
                         alt=""></a>
                 <button class="menu" onclick="sidepane()"><img class="hamburger" src="img/Hamburger-Menu.svg" alt="">
                 </button>
@@ -250,9 +251,12 @@
     </main>
     <footer class="footer">
         <div class="footer-content">
-            <div>
-                whatsapp
+        <div>
+            <div class= "call-icon">
+                <img src="img/call.svg" alt="">
             </div>
+            <span>+880 1892 411 397</span>
+        </div>
             <p>&copy; 2025 Pearl Oasis. All rights reserved.</p>
 
             <form action="https://api.web3forms.com/submit" method="POST" id="contactForm"
